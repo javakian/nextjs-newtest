@@ -1,24 +1,30 @@
 {
-  "name": "myapp",
+  "name": "nextjs-base",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint --ext .js ./",
+    "lint.fix": "eslint --fix --ext .js ./",
+    "test": "jest"
   },
   "dependencies": {
-    "next": "11.0.0",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "next": "9.4.4",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.0.4",
+    "@types/jest": "^25.2.3",
     "autoprefixer": "^10.2.6",
-    "eslint": "^7.29.0",
-    "eslint-config-next": "11.0.0",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint": "^7.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.20.0",
+    "jest": "^26.0.1",
     "postcss": "^8.3.5",
     "tailwindcss": "^2.2.2"
   }
