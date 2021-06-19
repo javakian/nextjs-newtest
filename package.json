@@ -11,6 +11,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "browserslist": "^4.16.6",
     "elliptic": "^6.5.4",
     "i": "^0.3.6",
     "lodash": "^4.17.21",
