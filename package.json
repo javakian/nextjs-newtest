@@ -18,7 +18,7 @@
     "npm": "^7.18.1",
     "react": "16.13.1",
     "react-dom": "16.13.1",
-    "y18n": "^4.0.3"
+    "y18n": "^4.0.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.14.1",
