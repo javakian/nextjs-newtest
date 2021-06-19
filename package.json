@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-base",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js ./",
+    "lint.fix": "eslint --fix --ext .js ./",
+    "test": "jest"
+  },
+  "dependencies": {
+    "elliptic": "^6.5.4",
+    "i": "^0.3.6",
+    "lodash": "^4.17.21",
+    "next": "9.4.4",
+    "npm": "^7.18.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "y18n": "^4.0.3"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.9.0",
+    "@testing-library/react": "^10.0.4",
+    "@types/jest": "^25.2.3",
+    "autoprefixer": "^10.2.6",
+    "eslint": "^7.1.0",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-react": "^7.20.0",
+    "jest": "^26.0.1",
+    "postcss": "^8.3.5",
+    "tailwindcss": "^2.2.2"
+  }
+}
